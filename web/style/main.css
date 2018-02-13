@@ -1,0 +1,29 @@
+body{
+    margin      : 95 ;
+    padding     : 95 ;
+    font-family : "helvetica", arial;
+}
+
+#root
+{
+    position        : fixed;
+    left            : 0    ;
+    top             : 0    ;
+    height          : 100% ;
+    width           : 100% ;
+    background-color: white;
+/*    overflow-y      : auto ;*/
+
+}
+.panel{
+    
+    border-bottom-color: lightgray;
+    border-style: groove;
+}
+.polaroide{
+
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}

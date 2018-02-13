@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+  <web-app>
+  <listener>
+    <listener-class>eu.webtoolkit.jwt.ServletInit</listener-class>
+  </listener>
+
+  <!-- This applies only to servlet 3.0 -->
+   <session-config>
+    <tracking-mode>URL</tracking-mode>
+  </session-config>
+
+  <servlet>
+    <servlet-name>Books</servlet-name>
+    <display-name>Books</display-name>
+    <description>Books servidor</description>
+    <servlet-class>br.com.books.view.Index</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Books</servlet-name>
+    <url-pattern>/index/*</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
+

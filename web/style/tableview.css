@@ -1,0 +1,34 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15/01/2018, 16:07:51
+    Author     : Windows
+*/
+
+.Wt-itemview .Wt-header  {
+   
+    height: 100%;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    overflow: hidden;
+}
+.Wt-itemview .Wt-body  {
+   
+    height: 100%;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    overflow: hidden;
+}
+.Wt-tableview .Wt-tv-contents.Wt-striped div.active:nth-child(odd) {
+  background-color: #009933;
+}
+.Wt-itemview .active {
+  background-color: #009933;
+  color: white;
+}
+
